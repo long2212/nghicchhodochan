@@ -38,12 +38,13 @@
             // 
             // btnDangnhap
             // 
+            this.btnDangnhap.BackColor = System.Drawing.Color.CadetBlue;
             this.btnDangnhap.Location = new System.Drawing.Point(416, 82);
             this.btnDangnhap.Name = "btnDangnhap";
             this.btnDangnhap.Size = new System.Drawing.Size(75, 23);
             this.btnDangnhap.TabIndex = 3;
             this.btnDangnhap.Text = "Đăng nhập";
-            this.btnDangnhap.UseVisualStyleBackColor = true;
+            this.btnDangnhap.UseVisualStyleBackColor = false;
             this.btnDangnhap.Click += new System.EventHandler(this.btnDangnhap_Click);
             // 
             // txtuserName
@@ -83,12 +84,13 @@
             // 
             // btnExit
             // 
+            this.btnExit.BackColor = System.Drawing.Color.CadetBlue;
             this.btnExit.Location = new System.Drawing.Point(335, 82);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(75, 23);
             this.btnExit.TabIndex = 4;
             this.btnExit.Text = "Thoát";
-            this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.UseVisualStyleBackColor = false;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // FLogin
@@ -96,6 +98,7 @@
             this.AcceptButton = this.btnDangnhap;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.MenuBar;
             this.ClientSize = new System.Drawing.Size(520, 116);
             this.Controls.Add(this.lblMatKhau);
             this.Controls.Add(this.lblTenDangnhap);

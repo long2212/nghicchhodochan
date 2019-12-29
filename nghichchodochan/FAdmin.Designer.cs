@@ -41,32 +41,35 @@
             // 
             // btnList
             // 
+            this.btnList.BackColor = System.Drawing.Color.CadetBlue;
             this.btnList.Location = new System.Drawing.Point(405, 342);
             this.btnList.Name = "btnList";
             this.btnList.Size = new System.Drawing.Size(119, 23);
             this.btnList.TabIndex = 0;
             this.btnList.Text = "Bắt đầu thi";
-            this.btnList.UseVisualStyleBackColor = true;
+            this.btnList.UseVisualStyleBackColor = false;
             this.btnList.Click += new System.EventHandler(this.btnList_Click);
             // 
             // btnEdit
             // 
+            this.btnEdit.BackColor = System.Drawing.Color.CadetBlue;
             this.btnEdit.Location = new System.Drawing.Point(535, 342);
             this.btnEdit.Name = "btnEdit";
             this.btnEdit.Size = new System.Drawing.Size(75, 23);
             this.btnEdit.TabIndex = 0;
             this.btnEdit.Text = "Sửa Câu hỏi";
-            this.btnEdit.UseVisualStyleBackColor = true;
+            this.btnEdit.UseVisualStyleBackColor = false;
             this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
             // 
             // btnShow
             // 
+            this.btnShow.BackColor = System.Drawing.Color.CadetBlue;
             this.btnShow.Location = new System.Drawing.Point(616, 342);
             this.btnShow.Name = "btnShow";
             this.btnShow.Size = new System.Drawing.Size(75, 23);
             this.btnShow.TabIndex = 0;
             this.btnShow.Text = "Biểu đồ";
-            this.btnShow.UseVisualStyleBackColor = true;
+            this.btnShow.UseVisualStyleBackColor = false;
             // 
             // dtwListQueOfData
             // 
@@ -96,18 +99,20 @@
             // 
             // btnReLoad
             // 
+            this.btnReLoad.BackColor = System.Drawing.Color.CadetBlue;
             this.btnReLoad.Location = new System.Drawing.Point(12, 342);
             this.btnReLoad.Name = "btnReLoad";
             this.btnReLoad.Size = new System.Drawing.Size(55, 23);
             this.btnReLoad.TabIndex = 0;
             this.btnReLoad.Text = "Tải lại";
-            this.btnReLoad.UseVisualStyleBackColor = true;
+            this.btnReLoad.UseVisualStyleBackColor = false;
             this.btnReLoad.Click += new System.EventHandler(this.btnReLoad_Click);
             // 
             // FAdmin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.MenuBar;
             this.ClientSize = new System.Drawing.Size(700, 370);
             this.Controls.Add(this.gbxListQue);
             this.Controls.Add(this.dtwListQueOfData);

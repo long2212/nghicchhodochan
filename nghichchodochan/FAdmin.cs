@@ -56,7 +56,8 @@ namespace nghichchodochan
                         Width = 30,
                         Height = 30,
                         Location = new Point(oldbtn.Location.X + oldbtn.Width, oldbtn.Location.Y),
-                        Text = sott.ToString()
+                        Text = sott.ToString(),
+                        BackColor = Color.Turquoise
                     };
                     sott++;
                     pnlListQue.Controls.Add(btn);
