@@ -105,7 +105,7 @@ namespace nghichchodochan
         {
             //DataSet data = new DataSet();
 
-            String query = "select * from Questions";
+            String query = "select que_id as STT, Question as N'Câu Hỏi' from Questions";
 
             DataTable tableFinish = DataProvider.Instance.ExecuteQuery(query);
 
