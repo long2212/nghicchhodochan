@@ -34,6 +34,7 @@ namespace nghichchodochan
                 {
                     MessageBox.Show("Bạn chưa chọn câu hỏi cho thí sinh nên các câu hỏi sẽ mặc định từ 1 đến 20 trong bộ đề");
                 }
+                MessageBox.Show("Lưu ý: Kết quả bài trắc nghiệm sau đây chỉ mang tính chất tham khảo. Nếu bạn lo lắng về kết quả có thể tìm các chuyên gia hoặc các trung tâm uy tín về sức khỏe tâm lý/tâm thần để kiểm tra chính xác. Xin cảm ơn.");
                 Form1 f = new Form1();
                 this.Hide();
                 f.ShowDialog();
