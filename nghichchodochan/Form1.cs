@@ -20,6 +20,7 @@ namespace nghichchodochan
 
             load();
             addBtn();
+            
         }
 
         void addBtn()
@@ -37,7 +38,8 @@ namespace nghichchodochan
                         Width = 30,
                         Height = 30,
                         Location = new Point(oldbtn.Location.X + oldbtn.Width, oldbtn.Location.Y),
-                        Text = sott.ToString()                        
+                        Text = sott.ToString(),
+                        BackColor = Color.Moccasin
                     };
                     sott++;
                     pnlCQues.Controls.Add(btn);
@@ -133,6 +135,11 @@ namespace nghichchodochan
             FFinish nopbai = new FFinish();
             this.Hide();
             nopbai.ShowDialog();
+        }
+
+        private void groupBox3_Enter(object sender, EventArgs e)
+        {
+
         }
     }
         

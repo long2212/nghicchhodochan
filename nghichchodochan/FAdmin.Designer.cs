@@ -30,7 +30,6 @@
         {
             this.btnList = new System.Windows.Forms.Button();
             this.btnEdit = new System.Windows.Forms.Button();
-            this.btnShow = new System.Windows.Forms.Button();
             this.dtwListQueOfData = new System.Windows.Forms.DataGridView();
             this.pnlListQue = new System.Windows.Forms.Panel();
             this.gbxListQue = new System.Windows.Forms.GroupBox();
@@ -41,38 +40,31 @@
             // 
             // btnList
             // 
-            this.btnList.BackColor = System.Drawing.Color.CadetBlue;
+            this.btnList.BackColor = System.Drawing.Color.Aquamarine;
+            this.btnList.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btnList.Location = new System.Drawing.Point(405, 342);
             this.btnList.Name = "btnList";
             this.btnList.Size = new System.Drawing.Size(119, 23);
             this.btnList.TabIndex = 0;
-            this.btnList.Text = "Bắt đầu thi";
+            this.btnList.Text = "Bắt đầu làm";
             this.btnList.UseVisualStyleBackColor = false;
             this.btnList.Click += new System.EventHandler(this.btnList_Click);
             // 
             // btnEdit
             // 
-            this.btnEdit.BackColor = System.Drawing.Color.CadetBlue;
-            this.btnEdit.Location = new System.Drawing.Point(535, 342);
+            this.btnEdit.BackColor = System.Drawing.Color.Aquamarine;
+            this.btnEdit.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnEdit.Location = new System.Drawing.Point(530, 342);
             this.btnEdit.Name = "btnEdit";
-            this.btnEdit.Size = new System.Drawing.Size(75, 23);
+            this.btnEdit.Size = new System.Drawing.Size(161, 23);
             this.btnEdit.TabIndex = 0;
             this.btnEdit.Text = "Sửa Câu hỏi";
             this.btnEdit.UseVisualStyleBackColor = false;
             this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
             // 
-            // btnShow
-            // 
-            this.btnShow.BackColor = System.Drawing.Color.CadetBlue;
-            this.btnShow.Location = new System.Drawing.Point(616, 342);
-            this.btnShow.Name = "btnShow";
-            this.btnShow.Size = new System.Drawing.Size(75, 23);
-            this.btnShow.TabIndex = 0;
-            this.btnShow.Text = "Biểu đồ";
-            this.btnShow.UseVisualStyleBackColor = false;
-            // 
             // dtwListQueOfData
             // 
+            this.dtwListQueOfData.BackgroundColor = System.Drawing.Color.LightGreen;
             this.dtwListQueOfData.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtwListQueOfData.Location = new System.Drawing.Point(12, 12);
             this.dtwListQueOfData.Name = "dtwListQueOfData";
@@ -99,7 +91,8 @@
             // 
             // btnReLoad
             // 
-            this.btnReLoad.BackColor = System.Drawing.Color.CadetBlue;
+            this.btnReLoad.BackColor = System.Drawing.Color.Aquamarine;
+            this.btnReLoad.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btnReLoad.Location = new System.Drawing.Point(12, 342);
             this.btnReLoad.Name = "btnReLoad";
             this.btnReLoad.Size = new System.Drawing.Size(55, 23);
@@ -112,17 +105,17 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.MenuBar;
+            this.BackColor = System.Drawing.Color.PeachPuff;
             this.ClientSize = new System.Drawing.Size(700, 370);
             this.Controls.Add(this.gbxListQue);
             this.Controls.Add(this.dtwListQueOfData);
-            this.Controls.Add(this.btnShow);
             this.Controls.Add(this.btnEdit);
             this.Controls.Add(this.btnReLoad);
             this.Controls.Add(this.btnList);
             this.Name = "FAdmin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FAdmin";
+            this.Load += new System.EventHandler(this.FAdmin_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dtwListQueOfData)).EndInit();
             this.gbxListQue.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -133,7 +126,6 @@
 
         private System.Windows.Forms.Button btnList;
         private System.Windows.Forms.Button btnEdit;
-        private System.Windows.Forms.Button btnShow;
         private System.Windows.Forms.DataGridView dtwListQueOfData;
         private System.Windows.Forms.Panel pnlListQue;
         private System.Windows.Forms.GroupBox gbxListQue;

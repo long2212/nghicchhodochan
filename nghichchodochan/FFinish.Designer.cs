@@ -44,28 +44,31 @@
             // 
             // btnPre
             // 
+            this.btnPre.BackColor = System.Drawing.Color.LightGreen;
             this.btnPre.Location = new System.Drawing.Point(632, 423);
             this.btnPre.Name = "btnPre";
             this.btnPre.Size = new System.Drawing.Size(75, 23);
             this.btnPre.TabIndex = 1;
             this.btnPre.Text = "Quay Lại";
-            this.btnPre.UseVisualStyleBackColor = true;
+            this.btnPre.UseVisualStyleBackColor = false;
             this.btnPre.Click += new System.EventHandler(this.btnPre_Click);
             // 
             // btnFinish
             // 
+            this.btnFinish.BackColor = System.Drawing.Color.LightGreen;
             this.btnFinish.Location = new System.Drawing.Point(713, 423);
             this.btnFinish.Name = "btnFinish";
             this.btnFinish.Size = new System.Drawing.Size(75, 23);
             this.btnFinish.TabIndex = 2;
             this.btnFinish.Text = "Nộp bài";
-            this.btnFinish.UseVisualStyleBackColor = true;
+            this.btnFinish.UseVisualStyleBackColor = false;
             this.btnFinish.Click += new System.EventHandler(this.btnFinish_Click);
             // 
             // FFinish
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Wheat;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btnFinish);
             this.Controls.Add(this.btnPre);

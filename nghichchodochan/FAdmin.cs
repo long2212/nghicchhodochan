@@ -58,7 +58,7 @@ namespace nghichchodochan
                         Height = 30,
                         Location = new Point(oldbtn.Location.X + oldbtn.Width, oldbtn.Location.Y),
                         Text = sott.ToString(),
-                        BackColor = Color.Turquoise
+                        BackColor = Color.LightGreen
                     };
                     sott++;
                     pnlListQue.Controls.Add(btn);
@@ -103,6 +103,11 @@ namespace nghichchodochan
         {
             dtwListQueOfData.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dtwListQueOfData.DataSource = Method.ViewListQueOfData();
+        }
+
+        private void FAdmin_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

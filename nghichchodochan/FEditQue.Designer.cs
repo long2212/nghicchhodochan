@@ -39,28 +39,28 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.btnAns4 = new System.Windows.Forms.Button();
             this.txbAns4 = new System.Windows.Forms.TextBox();
             this.btnAns3 = new System.Windows.Forms.Button();
             this.txbAns3 = new System.Windows.Forms.TextBox();
             this.btnAns2 = new System.Windows.Forms.Button();
+            this.txbPoin4 = new System.Windows.Forms.TextBox();
             this.txbAns2 = new System.Windows.Forms.TextBox();
+            this.txbPoin2 = new System.Windows.Forms.TextBox();
+            this.txbPoin3 = new System.Windows.Forms.TextBox();
+            this.btnPoint3 = new System.Windows.Forms.Button();
+            this.btnPoint4 = new System.Windows.Forms.Button();
+            this.btnPoint2 = new System.Windows.Forms.Button();
+            this.btnPoint1 = new System.Windows.Forms.Button();
             this.btnAns1 = new System.Windows.Forms.Button();
+            this.txbPoin1 = new System.Windows.Forms.TextBox();
             this.txbAns1 = new System.Windows.Forms.TextBox();
             this.btnBack = new System.Windows.Forms.Button();
-            this.label5 = new System.Windows.Forms.Label();
-            this.txbPoin1 = new System.Windows.Forms.TextBox();
-            this.txbPoin2 = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.txbPoin4 = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.txbPoin3 = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.btnPoint1 = new System.Windows.Forms.Button();
-            this.btnPoint2 = new System.Windows.Forms.Button();
-            this.btnPoint4 = new System.Windows.Forms.Button();
-            this.btnPoint3 = new System.Windows.Forms.Button();
             this.gbxListQue.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -68,12 +68,13 @@
             // 
             // btnDone
             // 
+            this.btnDone.BackColor = System.Drawing.Color.NavajoWhite;
             this.btnDone.Location = new System.Drawing.Point(1036, 443);
             this.btnDone.Name = "btnDone";
             this.btnDone.Size = new System.Drawing.Size(104, 32);
             this.btnDone.TabIndex = 10;
             this.btnDone.Text = "Xong";
-            this.btnDone.UseVisualStyleBackColor = true;
+            this.btnDone.UseVisualStyleBackColor = false;
             this.btnDone.Click += new System.EventHandler(this.btnDone_Click);
             // 
             // pnlListQue
@@ -102,6 +103,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.groupBox1.Controls.Add(this.lbContentOfQue);
             this.groupBox1.Controls.Add(this.btnQueEdit);
             this.groupBox1.Controls.Add(this.txbQue);
@@ -123,11 +125,12 @@
             // 
             // btnQueEdit
             // 
+            this.btnQueEdit.BackColor = System.Drawing.Color.NavajoWhite;
             this.btnQueEdit.Location = new System.Drawing.Point(6, 19);
             this.btnQueEdit.Name = "btnQueEdit";
             this.btnQueEdit.Size = new System.Drawing.Size(1006, 122);
             this.btnQueEdit.TabIndex = 13;
-            this.btnQueEdit.UseVisualStyleBackColor = true;
+            this.btnQueEdit.UseVisualStyleBackColor = false;
             // 
             // groupBox2
             // 
@@ -189,6 +192,42 @@
             this.label2.TabIndex = 13;
             this.label2.Text = "Nội dung";
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(932, 238);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(31, 13);
+            this.label7.TabIndex = 13;
+            this.label7.Text = "Điểm";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(932, 110);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(31, 13);
+            this.label6.TabIndex = 13;
+            this.label6.Text = "Điểm";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(426, 238);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(31, 13);
+            this.label8.TabIndex = 13;
+            this.label8.Text = "Điểm";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(426, 110);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(31, 13);
+            this.label5.TabIndex = 13;
+            this.label5.Text = "Điểm";
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -200,11 +239,12 @@
             // 
             // btnAns4
             // 
+            this.btnAns4.BackColor = System.Drawing.Color.Moccasin;
             this.btnAns4.Location = new System.Drawing.Point(512, 147);
             this.btnAns4.Name = "btnAns4";
             this.btnAns4.Size = new System.Drawing.Size(414, 81);
             this.btnAns4.TabIndex = 13;
-            this.btnAns4.UseVisualStyleBackColor = true;
+            this.btnAns4.UseVisualStyleBackColor = false;
             // 
             // txbAns4
             // 
@@ -215,11 +255,12 @@
             // 
             // btnAns3
             // 
+            this.btnAns3.BackColor = System.Drawing.Color.Moccasin;
             this.btnAns3.Location = new System.Drawing.Point(6, 147);
             this.btnAns3.Name = "btnAns3";
             this.btnAns3.Size = new System.Drawing.Size(414, 81);
             this.btnAns3.TabIndex = 13;
-            this.btnAns3.UseVisualStyleBackColor = true;
+            this.btnAns3.UseVisualStyleBackColor = false;
             // 
             // txbAns3
             // 
@@ -230,11 +271,19 @@
             // 
             // btnAns2
             // 
+            this.btnAns2.BackColor = System.Drawing.Color.Moccasin;
             this.btnAns2.Location = new System.Drawing.Point(512, 19);
             this.btnAns2.Name = "btnAns2";
             this.btnAns2.Size = new System.Drawing.Size(414, 81);
             this.btnAns2.TabIndex = 13;
-            this.btnAns2.UseVisualStyleBackColor = true;
+            this.btnAns2.UseVisualStyleBackColor = false;
+            // 
+            // txbPoin4
+            // 
+            this.txbPoin4.Location = new System.Drawing.Point(969, 235);
+            this.txbPoin4.Name = "txbPoin4";
+            this.txbPoin4.Size = new System.Drawing.Size(43, 20);
+            this.txbPoin4.TabIndex = 9;
             // 
             // txbAns2
             // 
@@ -243,13 +292,71 @@
             this.txbAns2.Size = new System.Drawing.Size(356, 20);
             this.txbAns2.TabIndex = 4;
             // 
+            // txbPoin2
+            // 
+            this.txbPoin2.Location = new System.Drawing.Point(969, 107);
+            this.txbPoin2.Name = "txbPoin2";
+            this.txbPoin2.Size = new System.Drawing.Size(43, 20);
+            this.txbPoin2.TabIndex = 5;
+            // 
+            // txbPoin3
+            // 
+            this.txbPoin3.Location = new System.Drawing.Point(463, 235);
+            this.txbPoin3.Name = "txbPoin3";
+            this.txbPoin3.Size = new System.Drawing.Size(43, 20);
+            this.txbPoin3.TabIndex = 7;
+            // 
+            // btnPoint3
+            // 
+            this.btnPoint3.BackColor = System.Drawing.Color.LemonChiffon;
+            this.btnPoint3.Location = new System.Drawing.Point(426, 147);
+            this.btnPoint3.Name = "btnPoint3";
+            this.btnPoint3.Size = new System.Drawing.Size(80, 81);
+            this.btnPoint3.TabIndex = 13;
+            this.btnPoint3.UseVisualStyleBackColor = false;
+            // 
+            // btnPoint4
+            // 
+            this.btnPoint4.BackColor = System.Drawing.Color.LemonChiffon;
+            this.btnPoint4.Location = new System.Drawing.Point(932, 147);
+            this.btnPoint4.Name = "btnPoint4";
+            this.btnPoint4.Size = new System.Drawing.Size(80, 81);
+            this.btnPoint4.TabIndex = 13;
+            this.btnPoint4.UseVisualStyleBackColor = false;
+            // 
+            // btnPoint2
+            // 
+            this.btnPoint2.BackColor = System.Drawing.Color.LemonChiffon;
+            this.btnPoint2.Location = new System.Drawing.Point(932, 19);
+            this.btnPoint2.Name = "btnPoint2";
+            this.btnPoint2.Size = new System.Drawing.Size(80, 81);
+            this.btnPoint2.TabIndex = 13;
+            this.btnPoint2.UseVisualStyleBackColor = false;
+            // 
+            // btnPoint1
+            // 
+            this.btnPoint1.BackColor = System.Drawing.Color.LemonChiffon;
+            this.btnPoint1.Location = new System.Drawing.Point(426, 19);
+            this.btnPoint1.Name = "btnPoint1";
+            this.btnPoint1.Size = new System.Drawing.Size(80, 81);
+            this.btnPoint1.TabIndex = 13;
+            this.btnPoint1.UseVisualStyleBackColor = false;
+            // 
             // btnAns1
             // 
+            this.btnAns1.BackColor = System.Drawing.Color.Moccasin;
             this.btnAns1.Location = new System.Drawing.Point(6, 19);
             this.btnAns1.Name = "btnAns1";
             this.btnAns1.Size = new System.Drawing.Size(414, 81);
             this.btnAns1.TabIndex = 13;
-            this.btnAns1.UseVisualStyleBackColor = true;
+            this.btnAns1.UseVisualStyleBackColor = false;
+            // 
+            // txbPoin1
+            // 
+            this.txbPoin1.Location = new System.Drawing.Point(463, 107);
+            this.txbPoin1.Name = "txbPoin1";
+            this.txbPoin1.Size = new System.Drawing.Size(43, 20);
+            this.txbPoin1.TabIndex = 3;
             // 
             // txbAns1
             // 
@@ -260,114 +367,20 @@
             // 
             // btnBack
             // 
+            this.btnBack.BackColor = System.Drawing.Color.NavajoWhite;
             this.btnBack.Location = new System.Drawing.Point(1142, 443);
             this.btnBack.Name = "btnBack";
             this.btnBack.Size = new System.Drawing.Size(104, 32);
             this.btnBack.TabIndex = 11;
             this.btnBack.Text = "Quay lại";
-            this.btnBack.UseVisualStyleBackColor = true;
+            this.btnBack.UseVisualStyleBackColor = false;
             this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(426, 110);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(31, 13);
-            this.label5.TabIndex = 13;
-            this.label5.Text = "Điểm";
-            // 
-            // txbPoin1
-            // 
-            this.txbPoin1.Location = new System.Drawing.Point(463, 107);
-            this.txbPoin1.Name = "txbPoin1";
-            this.txbPoin1.Size = new System.Drawing.Size(43, 20);
-            this.txbPoin1.TabIndex = 3;
-            // 
-            // txbPoin2
-            // 
-            this.txbPoin2.Location = new System.Drawing.Point(969, 107);
-            this.txbPoin2.Name = "txbPoin2";
-            this.txbPoin2.Size = new System.Drawing.Size(43, 20);
-            this.txbPoin2.TabIndex = 5;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(932, 110);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(31, 13);
-            this.label6.TabIndex = 13;
-            this.label6.Text = "Điểm";
-            // 
-            // txbPoin4
-            // 
-            this.txbPoin4.Location = new System.Drawing.Point(969, 235);
-            this.txbPoin4.Name = "txbPoin4";
-            this.txbPoin4.Size = new System.Drawing.Size(43, 20);
-            this.txbPoin4.TabIndex = 9;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(932, 238);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(31, 13);
-            this.label7.TabIndex = 13;
-            this.label7.Text = "Điểm";
-            // 
-            // txbPoin3
-            // 
-            this.txbPoin3.Location = new System.Drawing.Point(463, 235);
-            this.txbPoin3.Name = "txbPoin3";
-            this.txbPoin3.Size = new System.Drawing.Size(43, 20);
-            this.txbPoin3.TabIndex = 7;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(426, 238);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(31, 13);
-            this.label8.TabIndex = 13;
-            this.label8.Text = "Điểm";
-            // 
-            // btnPoint1
-            // 
-            this.btnPoint1.Location = new System.Drawing.Point(426, 19);
-            this.btnPoint1.Name = "btnPoint1";
-            this.btnPoint1.Size = new System.Drawing.Size(80, 81);
-            this.btnPoint1.TabIndex = 13;
-            this.btnPoint1.UseVisualStyleBackColor = true;
-            // 
-            // btnPoint2
-            // 
-            this.btnPoint2.Location = new System.Drawing.Point(932, 19);
-            this.btnPoint2.Name = "btnPoint2";
-            this.btnPoint2.Size = new System.Drawing.Size(80, 81);
-            this.btnPoint2.TabIndex = 13;
-            this.btnPoint2.UseVisualStyleBackColor = true;
-            // 
-            // btnPoint4
-            // 
-            this.btnPoint4.Location = new System.Drawing.Point(932, 147);
-            this.btnPoint4.Name = "btnPoint4";
-            this.btnPoint4.Size = new System.Drawing.Size(80, 81);
-            this.btnPoint4.TabIndex = 13;
-            this.btnPoint4.UseVisualStyleBackColor = true;
-            // 
-            // btnPoint3
-            // 
-            this.btnPoint3.Location = new System.Drawing.Point(426, 147);
-            this.btnPoint3.Name = "btnPoint3";
-            this.btnPoint3.Size = new System.Drawing.Size(80, 81);
-            this.btnPoint3.TabIndex = 13;
-            this.btnPoint3.UseVisualStyleBackColor = true;
             // 
             // FEditQue
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.ClientSize = new System.Drawing.Size(1251, 483);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
