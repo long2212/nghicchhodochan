@@ -47,36 +47,40 @@
             // 
             // btnTl1
             // 
-            this.btnTl1.Location = new System.Drawing.Point(6, 22);
+            this.btnTl1.Location = new System.Drawing.Point(8, 27);
+            this.btnTl1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnTl1.Name = "btnTl1";
-            this.btnTl1.Size = new System.Drawing.Size(302, 63);
+            this.btnTl1.Size = new System.Drawing.Size(403, 78);
             this.btnTl1.TabIndex = 0;
             this.btnTl1.UseVisualStyleBackColor = true;
             this.btnTl1.Click += new System.EventHandler(this.btnTl1_Click);
             // 
             // btnTl2
             // 
-            this.btnTl2.Location = new System.Drawing.Point(318, 22);
+            this.btnTl2.Location = new System.Drawing.Point(424, 27);
+            this.btnTl2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnTl2.Name = "btnTl2";
-            this.btnTl2.Size = new System.Drawing.Size(302, 63);
+            this.btnTl2.Size = new System.Drawing.Size(403, 78);
             this.btnTl2.TabIndex = 2;
             this.btnTl2.UseVisualStyleBackColor = true;
             this.btnTl2.Click += new System.EventHandler(this.btnTl2_Click);
             // 
             // btnTl4
             // 
-            this.btnTl4.Location = new System.Drawing.Point(318, 91);
+            this.btnTl4.Location = new System.Drawing.Point(424, 112);
+            this.btnTl4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnTl4.Name = "btnTl4";
-            this.btnTl4.Size = new System.Drawing.Size(302, 63);
+            this.btnTl4.Size = new System.Drawing.Size(403, 78);
             this.btnTl4.TabIndex = 4;
             this.btnTl4.UseVisualStyleBackColor = true;
             this.btnTl4.Click += new System.EventHandler(this.btnTl4_Click);
             // 
             // btnTl3
             // 
-            this.btnTl3.Location = new System.Drawing.Point(6, 91);
+            this.btnTl3.Location = new System.Drawing.Point(8, 112);
+            this.btnTl3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnTl3.Name = "btnTl3";
-            this.btnTl3.Size = new System.Drawing.Size(302, 63);
+            this.btnTl3.Size = new System.Drawing.Size(403, 78);
             this.btnTl3.TabIndex = 3;
             this.btnTl3.UseVisualStyleBackColor = true;
             this.btnTl3.Click += new System.EventHandler(this.btnTl3_Click);
@@ -84,18 +88,21 @@
             // gbCauhoi
             // 
             this.gbCauhoi.Controls.Add(this.btnCauHoi);
-            this.gbCauhoi.Location = new System.Drawing.Point(12, 12);
+            this.gbCauhoi.Location = new System.Drawing.Point(16, 15);
+            this.gbCauhoi.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.gbCauhoi.Name = "gbCauhoi";
-            this.gbCauhoi.Size = new System.Drawing.Size(625, 149);
+            this.gbCauhoi.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.gbCauhoi.Size = new System.Drawing.Size(833, 183);
             this.gbCauhoi.TabIndex = 5;
             this.gbCauhoi.TabStop = false;
             this.gbCauhoi.Text = "Câu Hỏi";
             // 
             // btnCauHoi
             // 
-            this.btnCauHoi.Location = new System.Drawing.Point(6, 19);
+            this.btnCauHoi.Location = new System.Drawing.Point(8, 23);
+            this.btnCauHoi.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnCauHoi.Name = "btnCauHoi";
-            this.btnCauHoi.Size = new System.Drawing.Size(614, 124);
+            this.btnCauHoi.Size = new System.Drawing.Size(819, 153);
             this.btnCauHoi.TabIndex = 0;
             this.btnCauHoi.UseVisualStyleBackColor = true;
             // 
@@ -105,18 +112,21 @@
             this.groupBox1.Controls.Add(this.btnTl3);
             this.groupBox1.Controls.Add(this.btnTl4);
             this.groupBox1.Controls.Add(this.btnTl2);
-            this.groupBox1.Location = new System.Drawing.Point(12, 167);
+            this.groupBox1.Location = new System.Drawing.Point(16, 206);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(626, 167);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Size = new System.Drawing.Size(835, 206);
             this.groupBox1.TabIndex = 6;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Câu trả lời";
             // 
             // btnNext
             // 
-            this.btnNext.Location = new System.Drawing.Point(557, 340);
+            this.btnNext.Location = new System.Drawing.Point(743, 418);
+            this.btnNext.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnNext.Name = "btnNext";
-            this.btnNext.Size = new System.Drawing.Size(75, 23);
+            this.btnNext.Size = new System.Drawing.Size(100, 28);
             this.btnNext.TabIndex = 7;
             this.btnNext.Text = "Sau";
             this.btnNext.UseVisualStyleBackColor = true;
@@ -124,9 +134,10 @@
             // 
             // btnPreviou
             // 
-            this.btnPreviou.Location = new System.Drawing.Point(476, 340);
+            this.btnPreviou.Location = new System.Drawing.Point(635, 418);
+            this.btnPreviou.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnPreviou.Name = "btnPreviou";
-            this.btnPreviou.Size = new System.Drawing.Size(75, 23);
+            this.btnPreviou.Size = new System.Drawing.Size(100, 28);
             this.btnPreviou.TabIndex = 8;
             this.btnPreviou.Text = "Trước";
             this.btnPreviou.UseVisualStyleBackColor = true;
@@ -134,25 +145,29 @@
             // 
             // pnlCQues
             // 
-            this.pnlCQues.Location = new System.Drawing.Point(6, 13);
+            this.pnlCQues.Location = new System.Drawing.Point(8, 18);
+            this.pnlCQues.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pnlCQues.Name = "pnlCQues";
-            this.pnlCQues.Size = new System.Drawing.Size(63, 301);
+            this.pnlCQues.Size = new System.Drawing.Size(121, 370);
             this.pnlCQues.TabIndex = 10;
             // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.pnlCQues);
-            this.groupBox2.Location = new System.Drawing.Point(644, 12);
+            this.groupBox2.Location = new System.Drawing.Point(859, 15);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(75, 322);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Size = new System.Drawing.Size(137, 396);
             this.groupBox2.TabIndex = 11;
             this.groupBox2.TabStop = false;
             // 
             // btnFinish
             // 
-            this.btnFinish.Location = new System.Drawing.Point(644, 340);
+            this.btnFinish.Location = new System.Drawing.Point(859, 418);
+            this.btnFinish.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnFinish.Name = "btnFinish";
-            this.btnFinish.Size = new System.Drawing.Size(75, 23);
+            this.btnFinish.Size = new System.Drawing.Size(100, 28);
             this.btnFinish.TabIndex = 12;
             this.btnFinish.Text = "Nộp bài";
             this.btnFinish.UseVisualStyleBackColor = true;
@@ -160,15 +175,16 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(730, 373);
+            this.ClientSize = new System.Drawing.Size(1042, 459);
             this.Controls.Add(this.btnFinish);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.btnPreviou);
             this.Controls.Add(this.btnNext);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.gbCauhoi);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";

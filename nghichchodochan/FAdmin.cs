@@ -75,7 +75,7 @@ namespace nghichchodochan
 
         private void Btn_Click(object sender, EventArgs e)
         {
-            if (Count.Sottdanhsachcauhoi <= 20) 
+            if (Count.Sottdanhsachcauhoi <= 30) 
             {
                 Button btn = sender as Button;
                 Count.ListQue[Count.Sottdanhsachcauhoi] = Int32.Parse(btn.Text);
@@ -84,7 +84,7 @@ namespace nghichchodochan
                 gbxListQue.Text = "Số câu hỏi đã chọn: ";   
                 gbxListQue.Text += Count.Sottdanhsachcauhoi.ToString();
                 Count.Sottdanhsachcauhoi++;
-                if (Count.Sottdanhsachcauhoi >= 21)
+                if (Count.Sottdanhsachcauhoi >= 31)
                 {
                     MessageBox.Show("Bạn đã chọn xong 20 Câu hỏi!!!");
                 }

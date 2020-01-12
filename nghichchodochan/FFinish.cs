@@ -45,70 +45,20 @@ namespace nghichchodochan
                 }
                 string a = "";
                 a += "Trầm cảm: ";
-                if (Count.lastpoint < 10)
-                {
-                    a += "Bình thương";
-                }
-                else if (Count.lastpoint < 14)
+                if (Count.lastpoint < 41)
                 {
                     a += "Nhẹ";
                 }
-                else if (Count.lastpoint < 21)
+                else if (Count.lastpoint < 51)
                 {
                     a += "Vừa";
                 }
-                else if (Count.lastpoint < 28)
-                {
-                    a += "Nặng";
-                }
                 else
                 {
-                    a += "Rất nặng";
+                    a += "Nặng";
                 }
 
-                a += "\nLo âu: ";
-                if (Count.lastpoint < 8)
-                {
-                    a += "Bình thương";
-                }
-                else if (Count.lastpoint < 10)
-                {
-                    a += "Nhẹ";
-                }
-                else if (Count.lastpoint < 15)
-                {
-                    a += "Vừa";
-                }
-                else if (Count.lastpoint < 20)
-                {
-                    a += "Nặng";
-                }
-                else
-                {
-                    a += "Rất nặng";
-                }
-
-                a += "\nStress: ";
-                if (Count.lastpoint < 15)
-                {
-                    a += "Bình thương";
-                }
-                else if (Count.lastpoint < 19)
-                {
-                    a += "Nhẹ";
-                }
-                else if (Count.lastpoint < 26)
-                {
-                    a += "Vừa";
-                }
-                else if (Count.lastpoint < 34)
-                {
-                    a += "Nặng";
-                }
-                else
-                {
-                    a += "Rất nặng";
-                }
+                
                 MessageBox.Show(a);
                 btnFinish.Text = "Kết thúc";
                 flagFinish = 1;
