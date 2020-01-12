@@ -32,7 +32,7 @@ namespace nghichchodochan
             {
                 if (Count.Sottdanhsachcauhoi == 1)
                 {
-                    MessageBox.Show("Bạn chưa chọn câu hỏi cho thí sinh nên các câu hỏi sẽ mặc định từ 1 đến 20 trong bộ đề");
+                    MessageBox.Show("Bạn chưa chọn câu hỏi cho thí sinh nên các câu hỏi sẽ mặc định từ 1 đến 30 trong bộ đề");
                 }
                 MessageBox.Show("Lưu ý: Kết quả bài trắc nghiệm sau đây chỉ mang tính chất tham khảo. Nếu bạn lo lắng về kết quả có thể tìm các chuyên gia hoặc các trung tâm uy tín về sức khỏe tâm lý/tâm thần để kiểm tra chính xác. Xin cảm ơn.");
                 Form1 f = new Form1();
@@ -86,7 +86,7 @@ namespace nghichchodochan
                 Count.Sottdanhsachcauhoi++;
                 if (Count.Sottdanhsachcauhoi >= 31)
                 {
-                    MessageBox.Show("Bạn đã chọn xong 20 Câu hỏi!!!");
+                    MessageBox.Show("Bạn đã chọn xong 3 Câu hỏi!!!");
                 }
             }
         }
