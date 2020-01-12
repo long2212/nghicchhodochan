@@ -86,7 +86,7 @@ namespace nghichchodochan
                 Count.Sottdanhsachcauhoi++;
                 if (Count.Sottdanhsachcauhoi >= 31)
                 {
-                    MessageBox.Show("Bạn đã chọn xong 3 Câu hỏi!!!");
+                    MessageBox.Show("Bạn đã chọn xong 30 Câu hỏi!!!");
                 }
             }
         }
